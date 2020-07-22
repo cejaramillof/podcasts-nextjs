@@ -1,0 +1,26 @@
+{
+  "name": "podcasts-next",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node server.js",
+    "start": "NODE_ENV=production node",
+    "dev:next": "next",
+    "start:next": "next start",
+    "build:next": "next build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "isomorphic-fetch": "^2.2.1",
+    "next": "^9.4.4",
+    "next-routes": "^1.4.2",
+    "nprogress": "^0.2.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "slugify": "^1.4.4"
+  }
+}
